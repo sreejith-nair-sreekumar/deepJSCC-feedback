@@ -61,7 +61,7 @@ class NBatchLogger(tf.keras.callbacks.Callback):
                 )
             )
             self.metric_cache.clear()
-
+print("Hello")
 
 class PSNRsVar(tf.keras.metrics.Metric):
     """Calculate the variance of a distribution of PSNRs across batches
